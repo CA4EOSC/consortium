@@ -1,0 +1,228 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "cr": "http://mlcommons.org/croissant/",
+    "sc": "https://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "conformsTo": "dct:conformsTo",
+    "recordSet": "cr:recordSet",
+    "field": "cr:field",
+    "source": "cr:source",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@id"
+    },
+    "prov": "http://www.w3.org/ns/prov#",
+    "wasDerivedFrom": {
+      "@id": "prov:wasDerivedFrom",
+      "@type": "@id"
+    },
+    "wasAttributedTo": {
+      "@id": "prov:wasAttributedTo",
+      "@type": "@id"
+    },
+    "wasGeneratedBy": {
+      "@id": "prov:wasGeneratedBy",
+      "@type": "@id"
+    },
+    "used": {
+      "@id": "prov:used",
+      "@type": "@id"
+    }
+  },
+  "@type": "sc:Dataset",
+  "name": {
+    "@language": "en",
+    "@value": "CLIMATE-ADAPT4EOSC"
+  },
+  "description": {
+    "@language": "en",
+    "@value": "CLIMATE-ADAPT4EOSC is a Horizon Europe project dedicated to establishing a seamless, EOSC-centred collaborative research environment for climate change adaptation."
+  },
+  "url": "https://climate-adapt4eosc.eu/",
+  "license": "CC-BY-4.0",
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.0",
+  "datePublished": null,
+  "version": "1.0",
+  "distribution": [],
+  "recordSet": [],
+  "creator": [
+    {
+      "name": "NATIONAL CENTER FOR SCIENTIFIC RESEARCH DEMOKRITOS (NCSRD)",
+      "identifier": "did:oyd:zQmciJaGKx3WKs1GGM6SLqsK7G6vgQkBpm3HyVeHDWkRX4Z",
+      "countryDID": "did:oyd:zQmQUuKx7P2xxd2ugaeFjfujLNDSRjgBdLcPwRsRXS4gZUy",
+      "url": "https://www.demokritos.gr/",
+      "description": "Project coordination (WP8), multi-scale climate hazard simulation, HPC/digital twin modeling."
+    },
+    {
+      "name": "ARTELIA (ART)",
+      "identifier": "did:oyd:zQmRCQtN5rWzKcxxW8c8yQkSW7Mv9LhGzNEHKs4VKnhbHbm",
+      "countryDID": "did:oyd:zQmPhUABeBZp7egwXSPJicMiJ3QPHXTejicfthPU5DcUwrm",
+      "url": "https://www.arteliagroup.com/",
+      "description": "WP6 lead; engineering services for water/energy; lead on clay risk assessment/mapping (UC3)."
+    },
+    {
+      "name": "LABORATORIO NACIONAL DE ENGENHARIA CIVIL (LNEC)",
+      "identifier": "did:oyd:zQmew1yQWZmZuG5BPgLpRyKDYsx4qCHq79bJtRomb9EuMYG",
+      "countryDID": "did:oyd:zQmc4xvBiRBXQP64dsfrR23mtYswGoziyPH4MqhgWS2ZEeo",
+      "url": "https://www.lnec.pt/",
+      "description": "WP5 lead (demonstrations); hydrodynamic/coastal forecasting (OPENCoastS/HIDRALERTA)."
+    },
+    {
+      "name": "ASSOCIACAO INCD (INCD)",
+      "identifier": "did:oyd:zQmbVWBhDYqnAKYaCjnAqypZkjgN4f7uRNcPoa2t9eFT4N6",
+      "countryDID": "did:oyd:zQmc4xvBiRBXQP64dsfrR23mtYswGoziyPH4MqhgWS2ZEeo",
+      "url": "https://www.incd.pt/",
+      "description": "Infrastructure provider (EOSC/EGI cloud); technical deployment and integration support."
+    },
+    {
+      "name": "TECHNOVATIVE SOLUTIONS LTD (TVS)",
+      "identifier": "did:oyd:zQmStSc3sjhZPafBcr6VvXrUsyetChsri4aTZARvyXGXZHp",
+      "countryDID": "did:oyd:zQmdoxjZe8KZv7UF9TQMtwFbTsruPjQbVmofgCTuQcHRJq5",
+      "url": "https://technovativesolutions.co.uk/",
+      "description": "WP1 lead; AI/ML model architectures, climate adaptation toolkits, big data analytics (BDAnalytics)."
+    },
+    {
+      "name": "THE CHANCELLOR MASTERS AND SCHOLARS OF THE UNIVERSITY OF CAMBRIDGE (UCAM)",
+      "identifier": "did:oyd:zQmeBigH9GUbKRNkkwa8nG53uGbXoCBZXtWhUMXhmvnzCve",
+      "countryDID": "did:oyd:zQmdoxjZe8KZv7UF9TQMtwFbTsruPjQbVmofgCTuQcHRJq5",
+      "url": "https://www.cam.ac.uk/",
+      "description": "WP4 lead; cross-domain knowledge graphs, HPC (CSD3) analysis, semantic interoperability."
+    },
+    {
+      "name": "THE UNIVERSITY OF MANCHESTER (UNIMAN)",
+      "identifier": "did:oyd:zQmcUipfZikytiym7QTNG1wXW9R98SQNchpFFppGHaKRMJB",
+      "countryDID": "did:oyd:zQmdoxjZe8KZv7UF9TQMtwFbTsruPjQbVmofgCTuQcHRJq5",
+      "url": "https://www.manchester.ac.uk/",
+      "description": "WP2 lead; provenance/FAIR expert, RO-Crate development, privacy-preserving policy engine."
+    },
+    {
+      "name": "GAC (GAC)",
+      "identifier": "did:oyd:zQmUQYyEVr4cwz9BrYxiwv8CND9m9S6uQT4LwEeA5o6GTTX",
+      "countryDID": "did:oyd:zQmPhUABeBZp7egwXSPJicMiJ3QPHXTejicfthPU5DcUwrm",
+      "url": "https://www.gac.com/",
+      "description": "WP7 lead; policy dialogue, project dissemination, communication, and exploitation strategy."
+    },
+    {
+      "name": "COMITE DES DONNEES SCIENTIFIQUES ETTECHNOLOGIQUES ASSOCIATION (CODATA)",
+      "identifier": "did:oyd:zQmaXhEhYFR5gpgkRfiGkkTDstcHuNPdwoq65JYmzQibCSJ",
+      "countryDID": "did:oyd:zQmPhUABeBZp7egwXSPJicMiJ3QPHXTejicfthPU5DcUwrm",
+      "url": "https://codata.org/",
+      "description": "WP3 lead; Data policy & legal interoperability; Cross-Domain Interoperability Framework (CDIF)."
+    },
+    {
+      "name": "ETHNIKO ASTEROSKOPEIO ATHINON (NOA)",
+      "identifier": "did:oyd:zQmWHsq6ypnZNU4BVaRob7oAaJ4CaEiSdUiPFAy4MmDY89R",
+      "countryDID": "did:oyd:zQmQUuKx7P2xxd2ugaeFjfujLNDSRjgBdLcPwRsRXS4gZUy",
+      "url": "https://www.noa.gr/",
+      "description": "Weather/climate prediction; climate indicators, high-resolution micro-climatic modeling."
+    },
+    {
+      "name": "DIMOS EGALEO (EGL)",
+      "identifier": "did:oyd:zQmVKT8NMpuPnD2eGWs8rw8aWcpdMJqNwi6Sb5PAdvSyvfi",
+      "countryDID": "did:oyd:zQmQUuKx7P2xxd2ugaeFjfujLNDSRjgBdLcPwRsRXS4gZUy",
+      "url": "https://www.egaleo.gr/",
+      "description": "Piloting partner, user validation, urban resilience (Just-CURS) demonstration site."
+    },
+    {
+      "name": "APA-ADMINISTRACAO DO PORTO DE AVEIRO SA (APA)",
+      "identifier": "did:oyd:zQmfTkVfKSjH4AwjqzVa6wBpNSmNY3vCvih11XLNE5BhPfj",
+      "countryDID": "did:oyd:zQmc4xvBiRBXQP64dsfrR23mtYswGoziyPH4MqhgWS2ZEeo",
+      "url": "https://www.apaveiro.pt/",
+      "description": "Portuguese data space provider; Aveiro port management/demo infrastructure provider."
+    },
+    {
+      "name": "CENTRE SCIENTIFIQUE ET TECHNIQUE DU BATIMENT (CSTB)",
+      "identifier": "did:oyd:zQmTEaatuDCSu5ZDTHz4ACRjqmNgRLAhvQ76qsNPkxFvSFv",
+      "countryDID": "did:oyd:zQmPhUABeBZp7egwXSPJicMiJ3QPHXTejicfthPU5DcUwrm",
+      "url": "https://www.cstb.fr/",
+      "description": "Building/territory resilience expert; end-user validation for UC3 (clay risk)."
+    },
+    {
+      "name": "DATA4 SERVICES POLAND SP. Z O.O. (DATA4)",
+      "identifier": "did:oyd:zQmPhczKjfCQcfNptEN5YKci55Lt6U4LsHmRaKtkX234f2A",
+      "countryDID": "did:oyd:zQmRoHFEH6DxaC9UMb6RbP1tkxMSEuYBeyHcYMPTZD1hwYq",
+      "url": "https://www.data4group.com/",
+      "description": "Data center provider; industrial operational validation for UC3 (clay risk) in Poland."
+    },
+    {
+      "name": "NOVITOPIA BILGI TEKNOLOJILERI LIMITED SIRKET (NVTP)",
+      "identifier": "did:oyd:zQmPn1yY94jAKnvgqHbzjDymidgVCdghNqqcNiT9uCrgbBZ",
+      "countryDID": "did:oyd:zQmRW7G6Gh7CxEe8vMtxnNMkoWXJh8H2CirTYaaDi321SM1",
+      "url": "https://www.novitopia.com/",
+      "description": "Full-stack dev; ML implementation, software development for project services (WP2, WP4, WP5)."
+    },
+    {
+      "name": "BUREAU DE RECHERCHES GEOLOGIQUES ET MINIERES (BRGM)",
+      "identifier": "did:oyd:zQmaAerL9gGvgBYtau5SR7TXvnYYZryVt2dj2eqDDM8JAuh",
+      "countryDID": "did:oyd:zQmPhUABeBZp7egwXSPJicMiJ3QPHXTejicfthPU5DcUwrm",
+      "url": "https://www.brgm.fr/",
+      "description": "Geological survey expert; end-user validation for UC3 (clay risk), hydrogeological expertise."
+    },
+    {
+      "name": "SIKT - KUNNSKAPSSEKTORENS TJENESTELEVERANDOR (SIKT)",
+      "identifier": "did:oyd:zQmPQyJ6uSvMwP77gKd971X9317EAFADaNqfZY6CbLocf2h",
+      "countryDID": "did:oyd:zQmZvZTwGjt63br3L7DTWMFb6FWAy77NdZjhg3FPvfzRMT1",
+      "url": "https://sikt.no/",
+      "description": "Data sharing/open research services; CDIF collaboration, organizational interoperability framework."
+    },
+    {
+      "name": "IANUS TECHNOLOGIES LTD (IANUS)",
+      "identifier": "did:oyd:zQmWtXNW429c5jtgeU3ywsGfHD3mNherrv5NpN6hyS8RmJm",
+      "countryDID": "did:oyd:zQmd2dFohbChVEhM2H1SSqjst1UoRAbcgmjpPCgXmzczrdV",
+      "url": "https://www.ianus-tech.com/",
+      "description": "Digital tools for risk management; urban vulnerability software, IT support, replication (Cyprus)."
+    }
+  ],
+  "author": null,
+  "spatialCoverage": [
+    {
+      "name": "Greece",
+      "identifier": "did:oyd:zQmQUuKx7P2xxd2ugaeFjfujLNDSRjgBdLcPwRsRXS4gZUy"
+    },
+    {
+      "name": "France",
+      "identifier": "did:oyd:zQmPhUABeBZp7egwXSPJicMiJ3QPHXTejicfthPU5DcUwrm"
+    },
+    {
+      "name": "Portugal",
+      "identifier": "did:oyd:zQmc4xvBiRBXQP64dsfrR23mtYswGoziyPH4MqhgWS2ZEeo"
+    },
+    {
+      "name": "United Kingdom",
+      "identifier": "did:oyd:zQmdoxjZe8KZv7UF9TQMtwFbTsruPjQbVmofgCTuQcHRJq5"
+    },
+    {
+      "name": "Poland",
+      "identifier": "did:oyd:zQmRoHFEH6DxaC9UMb6RbP1tkxMSEuYBeyHcYMPTZD1hwYq"
+    },
+    {
+      "name": "T\u00fcrkiye",
+      "identifier": "did:oyd:zQmRW7G6Gh7CxEe8vMtxnNMkoWXJh8H2CirTYaaDi321SM1"
+    },
+    {
+      "name": "Norway",
+      "identifier": "did:oyd:zQmZvZTwGjt63br3L7DTWMFb6FWAy77NdZjhg3FPvfzRMT1"
+    },
+    {
+      "name": "Cyprus",
+      "identifier": "did:oyd:zQmd2dFohbChVEhM2H1SSqjst1UoRAbcgmjpPCgXmzczrdV"
+    }
+  ],
+  "wasDerivedFrom": "https://climate-adapt4eosc.eu/",
+  "wasAttributedTo": "did:oyd:zQmcVHWDMeXtj273A9gNAnEG2EdrGEjtQiFuw9PncyVgs9z",
+  "wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "name": "Transcript Correction Activity",
+    "description": "Correction of spelling variations and name consistency checks performed by the AI agent.",
+    "used": [
+      "https://climate-adapt4eosc.eu/",
+      "file:///Users/tykhonov/projects/croissant-toolkit/.gemini/skills/transcriber/scripts/transcribe.py",
+      "https://github.com/google/gemini",
+      "file:///usr/share/dict/words"
+    ]
+  }
+}
